@@ -34,6 +34,22 @@
         text-align: center;
       }
 
+      #topRow h1 {
+        font-size: 300%;
+      }
+
+      .bold {
+        font-weight: bold;
+      }
+
+      .marginTop {
+        margin-top: 30px;
+      }
+
+      .center {
+        text-align: center;
+      }
+
     </style>
 
   </head>
@@ -72,8 +88,25 @@
     <div class="container" id="topContainer">
       <div class="row">
         <div class="col-md-6 col-md-offset-3" id="topRow">
-          <h1>My Awesome App</h1>
+          <h1 class="marginTop">My Awesome App</h1>
+          <p class="lead">This is why you should download this fantastic app</p>
+          <p>Some more information about the app. You can go into a little more detail here if you want to.</p>
+          <p class="bold marginTop">Interested? Join our mailing list!</p>
+          <form class="marginTop">
+            <div class="input-group">
+              <span class="input-group-addon">@</span>
+              <input type="email" class="form-control" placeholder="Your email">
+            </div>
+              <input type="submit" class="btn btn-success btn-lg marginTop">
+            
+          </form>
         </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row" class="center">
+        <h1 class="center">Why This App Is Awesome</h1>
       </div>
     </div>
 
