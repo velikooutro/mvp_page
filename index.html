@@ -3,6 +3,13 @@
   <head>
     <title>CSS Components</title>
     <link rel="stylesheet" href="css/bootstrap.css">
+
+    <style type="text/css">
+      .icon-lg {
+        font-size: 40px;
+      }
+    </style>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,7 +17,37 @@
 
   <body>
     <div class="container">
+      <button class="btn btn-default">Button</button>
+      <input class="btn btn-default" type="button" value="Button">
+      <input class="btn btn-default" type="submit" value="Button">
+      <a class="btn btn-default" href="#">Button</a>
 
+      <br><br>
+      <button class="btn btn-default btn-lg">Button</button>
+      <button class="btn btn-success btn-sm">Button</button>
+      <button class="btn btn-info">Button</button>
+      <button class="btn btn-warning">Button</button>
+      <button class="btn btn-danger">Button</button>
+      <button class="btn btn-link">Button</button>
+
+      <br><br>
+      <div class="btn-group">
+        <button class="btn btn-default">Left</button>
+        <button class="btn btn-default">Middle</button>
+        <button class="btn btn-default">Right</button>
+      </div>
+
+      <br><br>
+      <span class="glyphicon glyphicon-tag icon-lg"></span>
+      <button class="btn btn-default btn-lg">
+        <span class="glyphicon glyphicon-tag"></span>
+        Button
+      </button>
+
+      <br><br>
+      <ol class="breadcrumb">
+        <li><a href="#">Home</a></li>
+      </ol>
 
     </div> <!-- /container -->
 
