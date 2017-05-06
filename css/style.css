@@ -51,3 +51,24 @@
 .box .glyphicon {
 	font-size: 50px;
 }
+
+.section-a {
+	background: #313461;
+	color: #fff;
+	text-align: center;
+	padding: 50px;
+	margin-bottom: 30px;
+}
+
+.section-a h1 {
+	font-size: 50px;
+}
+
+.img-full {
+	width: 100%;
+}
+
+.main-footer {
+	background: #f5f5f5;
+	padding: 50px;
+}
