@@ -43,3 +43,11 @@
 	border-bottom: #fff 3px solid;
 	margin-bottom: 0;
 }
+
+.box {
+	text-align: center;
+}
+
+.box .glyphicon {
+	font-size: 50px;
+}
