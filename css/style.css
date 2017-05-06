@@ -12,7 +12,6 @@
 
 .jumbotron-main {
 	padding: 0 60px 40px 60px;
-
 }
 .jumbotron-main h1 {
 	margin-top: 60px;
@@ -25,7 +24,7 @@
 }
 
 .jumbotron-sub {
-
+	padding: 0 60px 40px 60px;
 }
 
 .navbar {
